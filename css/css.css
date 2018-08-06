@@ -1,0 +1,137 @@
+#all{
+    width: 100%;
+    height: 100%;
+    background-color:ghostwhite;
+    border: red 1px solid;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    /*justify-content: space-between;*/
+
+
+
+}
+.border{
+    border: limegreen solid 0.1px;
+
+}
+/*first-left 开始*/
+#first{
+    display: flex;
+    width: 100%;
+    height: 25px ;
+    background-color: black;
+    justify-content: space-between;
+
+
+}
+
+#first-left{
+    display: flex;
+    /*justify-content: flex-end;*/
+    flex-flow: column;
+}
+#first-left-up{
+    /*height: 30px;*/
+    /*width: 20px;*/
+    color: white;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+
+}
+#first-left-down{
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row;
+    justify-content: flex-start;
+
+    width: 40px;
+    height: 15px;
+
+}
+.signal {
+    background-color: white;
+    width: 3px;
+    margin-left: 1px;
+
+}
+#a1{
+    height: 3px;
+
+}
+#a2{
+    height: 5px;
+
+}
+#a3{
+    height: 7px;
+
+}
+#a4{
+    height: 10px;
+
+}
+/*first-right开始*/
+
+#first-right{
+    display: flex;
+
+
+}
+#b1 {
+    width: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#c1{
+    width:14px ;
+    height:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5px;
+
+}
+#d1{
+    background-color: lime;
+    height: 7px;
+    width: 10px;
+
+
+}
+@keyframes play {
+    0%{ background-color: red;
+        width: 1px}
+    20%{background-color: limegreen;
+        width: 5px}
+    80%{background-color: lime;
+        width: 19px}
+    /*100%{*/
+    /*background-color: green;*/
+    /*width: 19%;*/
+    /*}*/
+
+
+}
+.move{
+    animation: play 4s linear infinite;
+}
+#c2{
+    width:1.5px ;
+    height: 2px;
+    background-color: white;
+
+}
+/*first结束*/
+
+
+
+
+
+
+

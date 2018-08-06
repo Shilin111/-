@@ -1,0 +1,99 @@
+#all2{
+    width: 100%;
+    height: 100%;
+    background-color: ghostwhite;
+    border: red 1px solid;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+}
+.border4{
+    /*border: grey 1px solid;*/
+    border-bottom: lightgrey 1px solid;
+    border-top: lightgrey 1px solid;
+}
+.p1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    background-color: lightgrey;
+}
+.p2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-flow: row;
+    margin: 5px;
+    background-color: white;
+
+}
+.m1{
+    background-image: url(../css/tupian3/科比.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex: 1.2;
+}
+.m2{
+    display: flex;
+    flex: 4;
+    margin-left:10px;
+
+}
+.m3{
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    flex:4;
+    justify-content: center;
+    align-items: right;
+}
+.m5{
+    font-size: 20px;
+    color: black;
+
+}
+.m6{
+    font-size: 10px;
+    color: grey;
+}
+.m4{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+.n1{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: white;
+}
+.n2{
+    display: flex;
+
+}
+.n3{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    flex: 1;
+    margin-left: 10px;
+}
+.k1{
+    /*margin-top: 10px;*/
+    margin-left: 5px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: white;
+}
